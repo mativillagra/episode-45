@@ -14,8 +14,8 @@ chown -R vagrant:vagrant /home/vagrant
 cat >> /etc/hosts <<EOL
 
 # vagrant environment nodes
-10.0.15.10  mgmt
-10.0.15.11  lb
+10.0.15.12  mgmt
+10.0.15.14  lb
 10.0.15.21  web1
 10.0.15.22  web2
 10.0.15.23  web3
