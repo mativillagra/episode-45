@@ -1,0 +1,5 @@
+matiasv@laptop:~/repositories/episode-45$ git tag -a v0.0.1 -m "primer tag nombre v0.0.1" 
+
+matiasv@laptop:~/repositories/episode-45$ git push origin v0.0.1 
+
+https://git-scm.com/book/en/v2/Git-Basics-Tagging
