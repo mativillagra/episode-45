@@ -1,0 +1,1 @@
+This is a file to test a git pull from [master] if it's update the bug branch as well. 
