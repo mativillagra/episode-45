@@ -1,1 +1,30 @@
 This is a file to test a git pull from [master] if it's update the bug branch as well. 
+
+matiasv@laptop:~/repositories/episode-45$ git branch -a
+  bug
+* master
+  remotes/origin/HEAD -> origin/master
+  remotes/origin/bug
+  remotes/origin/master
+
+matiasv@laptop:~/repositories/episode-45$ git pull
+remote: Counting objects: 3, done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 1), reused 3 (delta 1), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+From github.com:mativillagra/episode-45
+   d655f27..e63e22b  bug        -> origin/bug
+Already up-to-date.
+
+matiasv@laptop:~/repositories/episode-45$ git checkout bug 
+Switched to branch 'bug'
+Your branch is behind 'origin/bug' by 1 commit, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+matiasv@laptop:~/repositories/episode-45$ 
+
+matiasv@laptop:~/repositories/episode-45$ git pull
+Updating d655f27..e63e22b
+Fast-forward
+ file1.txt | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 file1.txt
