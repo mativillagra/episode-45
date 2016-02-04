@@ -3,3 +3,21 @@ matiasv@laptop:~/repositories/episode-45$ git tag -a v0.0.1 -m "primer tag nombr
 matiasv@laptop:~/repositories/episode-45$ git push origin v0.0.1 
 
 https://git-scm.com/book/en/v2/Git-Basics-Tagging
+
+
+----------------------------------------------------------------------------------------
+
+http://stackoverflow.com/questions/1496346/passing-a-list-of-kwargs
+
+http://stackoverflow.com/questions/2003505/delete-a-git-branch-both-locally-and-remotely
+
+delete a branch :: git push origin --delete <branchName>
+
+delete a tag :: git push origin :refs/tags/version-p2p_clientes-release-0.0.180
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+
+https://nathanhoad.net/how-to-delete-a-remote-git-tag
+
+https://matoski.com/article/git-delete-remote-branch-tag/
