@@ -1,8 +1,8 @@
 This is a file to test a git pull from [master] if it's update the bug branch as well. 
 Merge
-T
-R
-J
+A
+B
+C
 U
 matiasv@laptop:~/repositories/episode-45$ git branch -a
   bug
