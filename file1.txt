@@ -6,8 +6,8 @@ C
 U
 A
 A
-W
-W
+A
+A
 U
 U
 matiasv@laptop:~/repositories/episode-45$ git branch -a
