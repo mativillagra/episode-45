@@ -5,8 +5,8 @@ B
 C
 U
 A
-F
-F
+W
+W
 matiasv@laptop:~/repositories/episode-45$ git branch -a
   bug
 * master
