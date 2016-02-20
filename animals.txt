@@ -2,3 +2,4 @@ cat
 dog
 octodogos
 octocat
+http://www.rosipov.com/blog/use-vimdiff-as-git-mergetool/
