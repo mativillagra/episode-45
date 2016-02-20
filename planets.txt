@@ -2,3 +2,6 @@ DCBA
 ZZZZ
 The number of planets are 
 nine
+XXXX
+The number of planets are
+eight
