@@ -1,13 +1,4 @@
-DCBA
-ZZZZ
-The number of planets are 
-nine
-XXXX
-The number of planets are
-eight
-<<<<<<< HEAD
-AAAA
-||||||| merged common ancestors
-=======
-XXXX
->>>>>>> bug
+cat
+dog
+octopus
+octocat
