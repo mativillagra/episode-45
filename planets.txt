@@ -1,2 +1,4 @@
 DCBA
 XXXX
+The number of planets are
+eight
