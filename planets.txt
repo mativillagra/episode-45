@@ -5,4 +5,9 @@ nine
 XXXX
 The number of planets are
 eight
+<<<<<<< HEAD
 AAAA
+||||||| merged common ancestors
+=======
+XXXX
+>>>>>>> bug
