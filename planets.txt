@@ -1,5 +1,4 @@
-DCBA
-XXXX
-The number of planets are
-eight
-XXXX
+cat
+dog
+octodog
+octocat
