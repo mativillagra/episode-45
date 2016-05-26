@@ -31,4 +31,15 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
       end
   end
 
+ # create mgmt node
+    config.vm.define :ce do |ce_config|
+        ce_config.vm.box = "centos7"
+        ce_config.vm.box_url = "http://cloud.centos.org/centos/7/vagrant/x86_64/images/CentOS-7.box"
+        ce_config.vm.hostname = "ce"
+        ce_config.vm.network :private_network, ip: "10.0.15.16"
+        ce_config.vm.provider "virtualbox" do |vb|
+              vb.memory = "256"
+          end
+        ce_config.vm.provision :shell, path: "bootstrap.sh"
+    end
 end
