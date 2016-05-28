@@ -40,6 +40,6 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
         ce_config.vm.provider "virtualbox" do |vb|
               vb.memory = "256"
           end
-        ce_config.vm.provision :shell, path: "bootstrap.sh"
+        ce_config.vm.provision :shell, path: "bootstrap-ce.sh"
     end
 end
