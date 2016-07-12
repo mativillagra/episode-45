@@ -1,0 +1,51 @@
+[matiasv@laptop episode-45 (master)]$ vagrant snapshot ce
+Usage: vagrant snapshot <subcommand> [<args>]
+
+Available subcommands:
+     delete
+     list
+     pop
+     push
+     restore
+     save
+
+For help on any individual subcommand run `vagrant snapshot <subcommand> -h`
+
+[matiasv@laptop episode-45 (master)]$ vagrant snapshot save ce
+==> mgmt: Snapshotting the machine as 'ce'...
+==> mgmt: Snapshot saved! You can restore the snapshot at any time by
+==> mgmt: using `vagrant snapshot restore`. You can delete it using
+==> mgmt: `vagrant snapshot delete`.
+==> lb: Snapshotting the machine as 'ce'...
+==> lb: Snapshot saved! You can restore the snapshot at any time by
+==> lb: using `vagrant snapshot restore`. You can delete it using
+==> lb: `vagrant snapshot delete`.
+==> ce: Snapshotting the machine as 'ce'...
+==> ce: Snapshot saved! You can restore the snapshot at any time by
+==> ce: using `vagrant snapshot restore`. You can delete it using
+==> ce: `vagrant snapshot delete`.
+[matiasv@laptop episode-45 (master)]$
+
+[matiasv@laptop episode-45 (master)]$ vagrant snapshot delete ce
+==> mgmt: Deleting the snapshot 'ce'...
+==> mgmt: Snapshot deleted!
+==> lb: Deleting the snapshot 'ce'...
+==> lb: Snapshot deleted!
+==> ce: Deleting the snapshot 'ce'...
+==> ce: Snapshot deleted!
+[matiasv@laptop episode-45 (master)]$
+
+[matiasv@laptop episode-45 (master)]$ vagrant status
+Current machine states:
+
+mgmt                      poweroff (virtualbox)
+lb                        poweroff (virtualbox)
+ce                        poweroff (virtualbox)
+
+This environment represents multiple VMs. The VMs are all listed
+above with their current state. For more information about a specific
+VM, run `vagrant status NAME`.
+[matiasv@laptop episode-45 (master)]$ vagrant box list
+centos7   (virtualbox, 0)
+precise32 (virtualbox, 0)
+[matiasv@laptop episode-45 (master)]$ 

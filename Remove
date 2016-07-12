@@ -1,0 +1,31 @@
+[matiasv@laptop episode-45 (master)]$ vagrant box remove ce
+The box you requested to be removed could not be found. No
+boxes named 'ce' could be found.
+[matiasv@laptop episode-45 (master)]$ vagrant box list
+centos7   (virtualbox, 0)
+precise32 (virtualbox, 0)
+[matiasv@laptop episode-45 (master)]$ vagrant box remove centos7
+/home/matiasv/repositories/episode-45/Vagrantfile:5: warning: already initialized constant VAGRANTFILE_API_VERSION
+/home/matiasv/repositories/episode-45/Vagrantfile:5: warning: previous definition of VAGRANTFILE_API_VERSION was here
+Box 'centos7' (v0) with provider 'virtualbox' appears
+to still be in use by at least one Vagrant environment. Removing
+the box could corrupt the environment. We recommend destroying
+these environments first:
+
+ce (ID: 7147bf89ad2a4fb5b09aff270d96351b)
+
+Are you sure you want to remove this box? [y/N] N
+[matiasv@laptop episode-45 (master)]$ vagrant destroy ce
+    ce: Are you sure you want to destroy the 'ce' VM? [y/N] y
+==> ce: Destroying VM and associated drives...
+[matiasv@laptop episode-45 (master)]$ vagrant status
+Current machine states:
+
+mgmt                      poweroff (virtualbox)
+lb                        poweroff (virtualbox)
+ce                        not created (virtualbox)
+
+This environment represents multiple VMs. The VMs are all listed
+above with their current state. For more information about a specific
+VM, run `vagrant status NAME`.
+[matiasv@laptop episode-45 (master)]$

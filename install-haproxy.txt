@@ -1,0 +1,10 @@
+https://www.upcloud.com/support/haproxy-load-balancer-centos/
+[vagrant@ce haproxy-1.6.3]$ sudo haproxy -v
+HA-Proxy version 1.6.3 2015/12/25
+Copyright 2000-2015 Willy Tarreau <willy@haproxy.org>
+
+
+http://programmableinfrastructure.com/guides/service-discovery/mesos-dns-haproxy-marathon/
+
+
+You have a bunch of microservices deployed in your Mesos cluster, and want to make them available under service specific URLs via HTTP so they can call each other or be accessed from the outside world.
