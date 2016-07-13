@@ -1,0 +1,50 @@
+# dmidecode 2.12
+SMBIOS 2.4 present.
+
+Handle 0x0004, DMI type 16, 15 bytes
+Physical Memory Array
+	Location: System Board Or Motherboard
+	Use: System Memory
+	Error Correction Type: None
+	Maximum Capacity: 8 GB
+	Error Information Handle: Not Provided
+	Number Of Devices: 2
+
+Handle 0x0005, DMI type 17, 27 bytes
+Memory Device
+	Array Handle: 0x0004
+	Error Information Handle: Not Provided
+	Total Width: Unknown
+	Data Width: 65474 bits
+	Size: 4096 MB
+	Form Factor: SODIMM
+	Set: None
+	Locator: Top
+	Bank Locator: BANK 0
+	Type: DDR3
+	Type Detail: Synchronous
+	Speed: 800 MHz
+	Manufacturer: 9400000000000000
+	Serial Number: 000000
+	Asset Tag: Unknown
+	Part Number: N3S04F1333REV.0
+
+Handle 0x0007, DMI type 17, 27 bytes
+Memory Device
+	Array Handle: 0x0004
+	Error Information Handle: Not Provided
+	Total Width: Unknown
+	Data Width: Unknown
+	Size: No Module Installed
+	Form Factor: SODIMM
+	Set: None
+	Locator: Bottom
+	Bank Locator: BANK 2
+	Type: Unknown
+	Type Detail: None
+	Speed: Unknown
+	Manufacturer: Not Specified
+	Serial Number: Not Specified
+	Asset Tag: Unknown
+	Part Number: Not Specified
+
