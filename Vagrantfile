@@ -38,7 +38,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
         ce_config.vm.hostname = "ce"
         ce_config.vm.network :private_network, ip: "10.0.15.16"
         ce_config.vm.provider "virtualbox" do |vb|
-              vb.memory = "1024"
+              vb.memory = "512"
           end
         ce_config.vm.provision :shell, path: "bootstrap-ce.sh"
     end
@@ -50,7 +50,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
         node1_config.vm.hostname = "node1"
         node1_config.vm.network :private_network, ip: "10.0.15.20"
         node1_config.vm.provider "virtualbox" do |vb|
-              vb.memory = "1024"
+              vb.memory = "512"
           end
         node1_config.vm.provision :shell, path: "installnode.sh"
     end
