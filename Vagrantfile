@@ -78,4 +78,17 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
           end
         pacman_config.vm.provision :shell, path: "bootstrap-pacman.sh"
     end
+
+  # create nintendo node
+    config.vm.define :nintendo do |nintendo_config|
+        nintendo_config.vm.box = "centos6"
+        nintendo_config.vm.box_url = "http://cloud.centos.org/centos/6/vagrant/x86_64/images/CentOS-6.box"
+        nintendo_config.vm.hostname = "nintendo"
+        nintendo_config.vm.network :private_network, ip: "10.0.15.22"
+        nintendo_config.vm.provider "virtualbox" do |vb|
+              vb.memory = "512"
+          end
+    end
+
+
 end
